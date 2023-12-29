@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major Project</title>
+</head>
+<link href="stylea.css" rel="stylesheet">
+
+<script src="scripta.js"></script>
+<body background="img.jpg">
+    <h1 align="center" style="margin-top:0mm">Registration Form</h1>
+    <table align="center" id="t1" >
+        <form method="get" action="#">
+            <tr>
+                <td class="label"><b>* </b>Name :</td>
+                <td><input type="text" id='UID' class="textbox card"></td>
+            </tr>
+            <tr>
+                <td class="label"><b>* </b>Gender :</td>
+                <td ><input type="radio" name="gender" ><u >Male</u>
+                     &nbsp;&nbsp;
+                     &nbsp;&nbsp;
+                     <input type="radio" name="gender" ><u>Female</u></td>
+            </tr>
+            <tr>
+                <td class="label"><b>* </b>Email:</td>
+                <td><input type="text" id="em" class="textbox card"></td>
+            </tr>
+            <tr>
+                <td class="label"><b>* </b>State:</td>
+                <td>
+                    <select style="width: 300px; height: 50px; font-size: 22px;border-radius: 10px;">
+                       <u> <option>Andhra Pradesh(Amaravati)</option>
+                        <option>Arunachal Pradesh(Itanagar)</option>
+                        <option>Assam(Dispur)</option>
+                        <option>Bihar(Patna)</option>
+                        <option>Chattisgarh(Raipur)</option>
+                        <option selected>Goa(Panaji)</option>
+                        <option>Gujarat(Gandhinagar)</option> </u>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label"><b>* </b>Phone No. :</td>
+                <td><input type="text" class="textbox card" id="Pho"></td>
+            </tr>
+            <tr>
+                <td class="label"><b>* </b>Age :</td>
+                <td><input type="text" class="textbox card" id="ag"></td>
+            </tr>
+            <tr>
+                <td class="label"><b>* </b>Password:</td>
+                <td><input type="password" name="password" id="pswd" class="textbox card"></td>
+              </tr>
+            <tr>
+                <td><input type="submit" class="buttons card" onclick="test()"></td>
+                <td><input type="reset" class="buttons card" onclick="empty()"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h3> Asterisks fields are mandatory</h3></td>
+            </tr>
+           
+        </form>
+    </table>
+   
+    
+</body>
+</html>
